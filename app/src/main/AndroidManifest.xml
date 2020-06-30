@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sparkbeta.spark">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        tools:replace="android:label"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/app_icon"
+        android:label="Spark Beta"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/app_icon" />
+
+
+        <activity android:name="com.sparkbeta.spark.AboutUs"/>
+        <activity android:name=".volleyball_bd"/>
+        <activity android:name=".hockey_bd"/>
+        <activity android:name=".hockey"/>
+        <activity android:name=".mode"/>
+        <activity android:name=".kho_kho_bd"/>
+        <activity android:name=".kabaddi_bd"/>
+        <activity android:name=".football_bd"/>
+        <activity android:name=".moderator"/>
+        <activity android:name=".volleyball"/>
+        <activity android:name=".badminton"/>
+        <activity android:name=".kabaddi"/>
+        <activity android:name=".kho_kho"/>
+        <activity android:name=".football"/>
+        <activity android:name=".SignIn" />
+        <activity android:name=".badminton_bd"/>
+        <activity android:name="com.sparkbeta.spark.MainActivity"/>
+        <activity android:name=".team1"/>
+        <activity android:name=".team1_details"/>
+        <activity android:name=".team2"/>
+        <activity android:name=".team2_details"/>
+        <activity android:name=".team1data"/>
+        <activity android:name=".Main2Activity"/>
+
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id"/>
+
+    </application>
+
+</manifest>
