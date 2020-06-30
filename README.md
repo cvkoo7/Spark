@@ -26,7 +26,7 @@
 
 ## SUPPORT THE WORK
 
-[![GitHub followers](https://img.shields.io/github/followers/hrshmistry?label=follow&style=social)](https://github.com/cvkoo7?tab=followers)
-[![GitHub forks](https://img.shields.io/github/forks/hrshmistry/Spark-Beta?label=forks&style=social)](https://github.com/cvkoo7/Spark/network) &nbsp;
-[![GitHub stars](https://img.shields.io/github/stars/hrshmistry/Spark-Beta?style=social)](https://github.com/cvkoo7/Spark/stargazers)
+[![GitHub followers](https://img.shields.io/github/followers/cvkoo7?label=follow&style=social)](https://github.com/cvkoo7?tab=followers)
+[![GitHub forks](https://img.shields.io/github/forks/cvkoo7/Spark?label=forks&style=social)](https://github.com/cvkoo7/Spark/network) &nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/cvkoo7/Spark?style=social)](https://github.com/cvkoo7/Spark/stargazers)
 &nbsp;
